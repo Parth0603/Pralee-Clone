@@ -1,0 +1,216 @@
+.first-image {
+    background-image:linear-gradient(rgb(17, 24, 39),rgba(17, 24, 39, 0.582)), url(about\ us\ images/first\ background.jpg);
+    width: 100%;
+    background-size: 100%;
+    background-position: center center;
+    background-position: center;
+    height: 18rem;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+
+.first-text-div {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 1.5rem;
+
+}
+
+.text-first {
+    color: rgb(253, 253, 253);
+    /* opacity: 1; */
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    text-align: left;
+}
+
+.second-page{
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+
+}
+.second-page-2{
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.493), #f472b6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.second-page-1{
+    text-align: right;
+    font-weight: 700;
+    line-height: 2.75rem;
+    font-size: 4rem;
+    color: white;
+    padding-top: 2.5rem;
+}
+.long-box{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-shadow: rgb(0, 140, 233) 0px 2px 2px 2px;
+}
+
+
+.box-div{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 4rem;
+}
+
+.box-image{
+    max-width: 100%;
+    height: auto;
+}
+
+.box-text-1{
+    color:rgb(96 165 250);
+    font-weight: 100;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding-top: .75rem;
+    text-align: center;
+}
+.box-text-2
+{
+    color:rgb(209 213 219);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding-top: .75rem;
+    text-align: center;
+}
+.long-box:hover{
+    transition: all 0.8s;
+    box-shadow: rgb(53, 218, 218) 0px 3px 3px 3px;
+}
+
+.third-page-2{
+    /* text-align: right; */
+    font-weight: 500;
+    line-height: 2.75rem;
+    font-size: 4rem;
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.493), #f472b6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.third-page-1{
+    font-weight: 500;
+    line-height: 2.75rem;
+    font-size: 4rem;
+    color: white;
+    margin-top: 5rem;
+}
+
+
+video{
+    box-shadow: cyan 0px 1px 2px 1px;
+    height: 75%;
+}
+
+.fourth-page{
+    margin-top: 5rem;
+    background-image:linear-gradient(rgba(17, 24, 39, 0.699),rgba(17, 24, 39, 0.979)), url(about\ us\ images/static\ background.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    /* padding-left: 6rem; */
+    /* padding-right: 6rem; */
+    padding-bottom: 1rem;
+    padding: 4rem;
+    
+}
+.fourth-page-text{
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+.small-box{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin-top: 2.5rem;
+    color:white;
+
+}
+.small-box-text{
+    width: 60%;
+    box-shadow: grey 0px 1px 1px 1px;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: rgba(17, 24, 39, 0.74);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+
+}
+.small-box-text:hover{
+    background-color: rgba(58, 55, 55, 0.74);
+}
+.left{
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.right{
+    flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+
+.fifth-page{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background: linear-gradient(to bottom right , #6b21a8 , #1d4ed8 , #0284c7);
+    text-align: center;
+}
+.fifth-page-text1{
+    text-align: center;
+    color: white;
+    font-weight: inherit;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+}
+.fifth-page-text2{
+    text-align: center;
+    color: white;
+    font-weight: inherit;
+    padding-top: 2.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-bottom: 2.5rem;
+}
+
+.button{
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 2px solid white;
+    margin-right: 1rem;
+    color: white;    
+}
+.button:hover{
+
+    background-color: rgba(128, 128, 128, 0.671);
+}
+
+.aboutus{
+    text-decoration: none;
+    color: gray;
+}

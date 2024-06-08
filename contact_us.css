@@ -1,0 +1,121 @@
+.div-contact{
+
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 6rem;
+
+}
+
+.main-contact-div{
+    display: flex;
+}
+.form-div{
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem ;
+    box-shadow: cyan 0px 1px 1px 2px;
+    border-radius: 1rem;
+    width: 50%;
+    margin-left: 5rem;
+    
+}
+.form-div:hover{
+    transition: all 0.8s;
+    box-shadow: cyan 1px 2px 2px 3px;
+}
+#text2{
+    font-weight: 200;
+    margin-bottom: 3rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+label{
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: white;
+    display: block;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+input,textarea{
+    color: white;
+    font-weight: 200;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: .5rem;
+    background-color: initial;
+    width: 100%;
+    border: 0px;
+    outline: 2px solid #0000;
+    box-shadow: rgba(137, 43, 226, 0.63) 2px -2px 5px 1px;
+    
+}
+input:hover{
+    box-shadow: rgba(0, 100, 130, 0.555) 2px -2px 5px 1px;
+}
+textarea:hover{
+    box-shadow: rgba(0, 100, 130, 0.555) 2px -2px 5px 1px;
+
+}
+#message{
+  text-align: start;
+  color: white;
+  resize: vertical;
+}
+
+
+
+
+.side-div{
+    margin-right: 3rem;
+    width: 50%;
+    padding-left: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+.aboutus{
+    text-decoration: none;
+    color: gray;
+}
+.small-div{
+    background-color: rgb(168 85 247);
+    width: 4rem;
+    height: .25rem;
+}
+.side-div-2{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.contact{
+    display: flex;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: white;
+    align-items: center;
+}
+.contact-images{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: 1rem;
+}
+.links{
+    margin-top: 0px;
+    color: rgb(192, 152, 152);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.last-table2{
+    margin-top: 6rem;
+    background-color: rgba(128, 128, 128, 0.075);
+}
+#last-line{
+    background-color: rgba(128, 128, 128, 0.075);
+
+}
